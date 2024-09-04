@@ -10,8 +10,6 @@ rules:
 
 http:
   rewrite:
-    - ^https?:\/\/cmt\.comp\.360os\.com\/adv\/t\/v\d+\/report - reject-200
-
-
-
+    - ^https?:\/\/2024.09.02/c334/v2.0.521 - reject-200
+#   - ^https?:\/\/cmt\.comp\.360os\.com\/adv\/t\/v\d+\/report - reject-200
 
