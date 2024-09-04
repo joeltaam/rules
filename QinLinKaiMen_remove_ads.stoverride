@@ -7,6 +7,9 @@ rules:
   - DOMAIN,open.e.kuaishou.com,REJECT
   - DOMAIN,xlog.jd.com,REJECT
   - DOMAIN,janapi.jd.com,REJECT
+  - DOMAIN,video-mall.qinlinad.com,REJECT
+  - DOMAIN,qinlinad.com,REJECT
+  - DOMAIN,qadx.qinlinad.com,REJECT
 http:
   url-rewrite:
     - ^https?:\/\/2024.09.02/c334/v2.0.521 - reject-200
