@@ -8,6 +8,6 @@ rules:
   - DOMAIN,xlog.jd.com,REJECT
   - DOMAIN,janapi.jd.com,REJECT
 http:
-  rewrite:
+  url-rewrite:
     - ^https?:\/\/2024.09.02/c334/v2.0.521 - reject-200
     - ^https?:\/\/cmt\.comp\.360os\.com\/adv\/t\/v\d+\/report - reject-200
