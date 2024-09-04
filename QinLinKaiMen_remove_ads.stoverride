@@ -10,6 +10,12 @@ rules:
   - DOMAIN,video-mall.qinlinad.com,REJECT
   - DOMAIN,qinlinad.com,REJECT
   - DOMAIN,qadx.qinlinad.com,REJECT
+  - DOMAIN,gdfp.gifshow.com,REJECT
+  - DOMAIN,hye.comp.360os.com,REJECT
+  - DOMAIN,sdk.e.qq.com,REJECT
+  - DOMAIN,dg.k.jd.com,REJECT
+  - DOMAIN,ulogs.umeng.com,REJECT
+
 http:
   url-rewrite:
     - ^https?:\/\/2024.09.02/c334/v2.0.521 - reject-200
