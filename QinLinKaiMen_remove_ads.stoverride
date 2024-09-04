@@ -9,7 +9,7 @@ rules:
   - DOMAIN,janapi.jd.com,REJECT
 
 http:
-  url-rewrite:
+  rewrite:
     - ^https?:\/\/cmt\.comp\.360os\.com\/adv\/t\/v\d+\/report - reject-200
 
 
