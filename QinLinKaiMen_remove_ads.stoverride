@@ -7,3 +7,11 @@ rules:
   - DOMAIN,open.e.kuaishou.com,REJECT
   - DOMAIN,xlog.jd.com,REJECT
   - DOMAIN,janapi.jd.com,REJECT
+
+http:
+  url-rewrite:
+    - ^https?:\/\/cmt\.comp\.360os\.com\/adv\/t\/v\d+\/report - reject-200
+
+
+
+
